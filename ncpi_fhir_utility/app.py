@@ -429,8 +429,8 @@ def _create_resource_config(resource_dict):
 
     return {
         "reference": {"reference": f"{rtype}/{rid}"},
-        "name": f"Kids First {rtype}/{rid}",
-        "description": f"Kids First {rtype} {rid}{suffix}",
+        "name": f"{rtype}/{rid}",
+        "description": f"{rtype} {rid}{suffix}",
         "exampleBoolean": is_example,
     }
 
